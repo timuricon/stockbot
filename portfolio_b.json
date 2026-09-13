@@ -1,0 +1,140 @@
+{
+  "_comment": "Портфель B — Агрессивный доход. Обновляйте current_value перед ребалансировкой.",
+  "portfolio_name": "Портфель B — Агрессивный доход",
+  "target_annual_yield_pct": 8.0,
+  "total_invested": 100000,
+  "currency": "USD",
+  "last_updated": "2026-03-13",
+  "approved": true,
+  "rebalance_tolerance_pct": 3.0,
+  "yield_thresholds": {
+    "BDC": 7.0,
+    "CEF": 6.0,
+    "HY_BOND": 5.0,
+    "REIT": 4.5,
+    "DIVIDEND": 3.0
+  },
+  "holdings": [
+    {
+      "ticker": "ARCC",
+      "name": "Ares Capital Corporation",
+      "type": "BDC",
+      "target_pct": 12,
+      "current_value": 0,
+      "current_yield_pct": 9.5,
+      "payout_ok": true,
+      "approved": true,
+      "notes": "Крупнейший публичный BDC. Не снижал выплаты с 2012."
+    },
+    {
+      "ticker": "MAIN",
+      "name": "Main Street Capital",
+      "type": "BDC",
+      "target_pct": 8,
+      "current_value": 0,
+      "current_yield_pct": 7.2,
+      "payout_ok": true,
+      "approved": true,
+      "notes": "Редкий BDC с ежемесячными выплатами."
+    },
+    {
+      "ticker": "OBDC",
+      "name": "Blue Owl Capital Corporation",
+      "type": "BDC",
+      "target_pct": 10,
+      "current_value": 0,
+      "current_yield_pct": 10.8,
+      "payout_ok": true,
+      "approved": true,
+      "notes": "Плавающая ставка — выигрыш при высоких ставках ФРС."
+    },
+    {
+      "ticker": "PTY",
+      "name": "PIMCO Corporate & Income Opportunity Fund",
+      "type": "CEF",
+      "target_pct": 8,
+      "current_value": 0,
+      "current_yield_pct": 14.7,
+      "payout_ok": true,
+      "approved": true,
+      "notes": "Заменён с PDI → PTY"
+    },
+    {
+      "ticker": "UTF",
+      "name": "Cohen & Steers Infrastructure",
+      "type": "CEF",
+      "target_pct": 9,
+      "current_value": 0,
+      "current_yield_pct": 7.5,
+      "payout_ok": true,
+      "approved": true,
+      "notes": "Защитный CEF, стабильный NAV. Инфраструктура + коммунальные."
+    },
+    {
+      "ticker": "ETV",
+      "name": "Eaton Vance Tax-Managed Diversified",
+      "type": "CEF",
+      "target_pct": 8,
+      "current_value": 0,
+      "current_yield_pct": 8.2,
+      "payout_ok": true,
+      "approved": true,
+      "notes": "Covered-call стратегия. Хедж против волатильности."
+    },
+    {
+      "ticker": "HYG",
+      "name": "iShares iBoxx High Yield Corp Bond",
+      "type": "HY_BOND",
+      "target_pct": 10,
+      "current_value": 0,
+      "current_yield_pct": 6.2,
+      "payout_ok": true,
+      "approved": true,
+      "notes": "1000+ эмитентов. TER 0.48%. Ликвидный ETF."
+    },
+    {
+      "ticker": "BKLN",
+      "name": "Invesco Senior Loan ETF",
+      "type": "HY_BOND",
+      "target_pct": 10,
+      "current_value": 0,
+      "current_yield_pct": 8.5,
+      "payout_ok": true,
+      "approved": true,
+      "notes": "Синдицированные займы с плавающей ставкой. Старший долг."
+    },
+    {
+      "ticker": "STAG",
+      "name": "STAG Industrial",
+      "type": "REIT",
+      "target_pct": 8,
+      "current_value": 0,
+      "current_yield_pct": 4.1,
+      "payout_ok": true,
+      "approved": true,
+      "notes": "Заменён с MPW → STAG"
+    },
+    {
+      "ticker": "O",
+      "name": "Realty Income Corp",
+      "type": "REIT",
+      "target_pct": 7,
+      "current_value": 0,
+      "current_yield_pct": 5.8,
+      "payout_ok": true,
+      "approved": true,
+      "notes": "Стабилизирующий REIT. S&P 500. 25+ лет ежемесячных выплат."
+    },
+    {
+      "ticker": "SCHD",
+      "name": "Schwab US Dividend Equity ETF",
+      "type": "DIVIDEND",
+      "target_pct": 10,
+      "current_value": 0,
+      "current_yield_pct": 3.7,
+      "payout_ok": true,
+      "approved": true,
+      "notes": "Якорная позиция. TER 0.06%. Рост дивидендов компенсирует низкий yield."
+    }
+  ]
+}

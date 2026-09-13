@@ -1,0 +1,23 @@
+[Unit]
+Description=StockBot — Telegram portfolio & scanner bot
+After=network.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+# Реальный путь на сервере (host: crypto-bot). При деплое в другое место — поправить.
+User=ubuntu
+WorkingDirectory=/opt/stockbot
+ExecStart=/usr/bin/python3 main.py
+Restart=on-failure
+RestartSec=10
+
+# Ключи — ТОЛЬКО через переменные окружения (заполнить при установке юнита!).
+# Либо расписать здесь:
+# Environment="POLYGON_API_KEY=your_key_here"
+# Environment="TELEGRAM_BOT_TOKEN=your_token_here"
+# Либо вынести в отдельный файл /etc/stockbot.env (рекомендуется, chmod 600):
+# EnvironmentFile=/etc/stockbot.env
+
+[Install]
+WantedBy=multi-user.target
